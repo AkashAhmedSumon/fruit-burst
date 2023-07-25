@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,47 +12,105 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <!-- Added Icon Image -->
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- Added Font Awesome link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Added Google Font link here -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <!-- Custom Default Script Link Added -->
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
-      <style>
-        .font-lato{
+    <style>
+        .font-lato {
             font-family: 'Lato', sans-serif;
         }
-      </style>
+    </style>
 
 </head>
+
 <body class="font-lato">
-    
+
     <!-- Header Section Start Here -->
-    <header>
-        
-    </header>
+    <!-- <header>
+        <section class="max-w-screen-xl mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a class="capitalize">home</a></li>
+                      <li><a class="capitalize">about us</a></li>
+                      <li><a class="capitalize">shop</a></li>
+                      <li><a class="capitalize">all fruit</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="capitalize">home</a></li>
+                    <li><a class="capitalize">about us</a></li>
+                    <li><a class="capitalize">shop</a></li>
+                    <li><a class="capitalize">all fruit</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end ">
+                  <h1>input</h1>
+                </div>
+              </div>
+        </section>
+    </header> -->
     <!-- Header Section End Here -->
-
-
-
 
     <!-- Main Section Start Here -->
     <main></main>
     <!-- Main Section End Here -->
+
+
+
+
     <!-- Footer Section Start Here -->
-    <footer></footer>
+    <footer class="footer footer-center p-10 bg-[#121212] text-base-content rounded">
+        
+        <div class="flex">
+            <img src="./images/logo.png" alt="">
+          <p class="text-lg text-[#FFF] capitalize font-medium">fruit burst</p>
+        </div>
+
+        <div class="flex gap-5 flex-wrap justify-center">
+            <a class="link text-lg text-[#FFF] capitalize font-medium no-underline">home</a> 
+            <a class="link text-lg text-[#FFF] capitalize font-medium no-underline">about us</a> 
+            <a class="link text-lg text-[#FFF] capitalize font-medium no-underline">shop</a> 
+            <a class="link text-lg text-[#FFF] capitalize font-medium no-underline">all fruit</a> 
+            <a class="link text-lg text-[#FFF] capitalize font-medium no-underline">support</a>
+            <a class="link text-lg text-[#FFF] capitalize font-medium no-underline">account</a>
+          </div> 
+        <div>
+            <div class="space-x-5">
+              <a class="text-white text-2xl"><i class="fa-brands fa-twitter"></i></a>
+              <a class="text-white text-2xl"><i class="fa-brands fa-facebook"></i></a>
+              <a class="text-white text-2xl"><i class="fa-brands fa-youtube"></i></a>
+              <a class="text-white text-2xl"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a class="text-white text-2xl"><i class="fa-brands fa-instagram"></i></a>
+              <a class="text-white text-2xl"><i class="fa-brands fa-apple"></i></a>
+            </div>
+          </div> 
+      </footer>
     <!-- Footer Section End Here -->
-    
+
 </body>
+
 </html>
